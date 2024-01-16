@@ -1,0 +1,39 @@
+.header {
+    height: 100px;
+    width: 100%;
+
+    .tools {
+        display: flex;
+        justify-content: space-around;
+
+        input {
+            margin-left: 20px;
+            font-size: 18px;
+            font-weight: 500;
+            width: 470px;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            background-color: lightblue;
+        }
+
+        .btn {
+            display: flex;
+
+            button {
+                padding: 10px;
+                font-size: 18px;
+                font-weight: 500;
+                width: 100px;
+                border: none;
+                border-radius: 10px;
+                background-color: white;
+
+                &:hover {
+                    background-color: blue;
+                    color: white;
+                }
+            }
+        }
+    }
+}

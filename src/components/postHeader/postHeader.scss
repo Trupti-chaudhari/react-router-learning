@@ -1,0 +1,17 @@
+.postheader {
+    height: 100px;
+    display: flex;
+    gap: 50px;
+
+    h2 {
+        padding: 10px;
+
+        &:hover {
+            height: 40px;
+            width: auto;
+            border-radius: 10px;
+            background-color: blue;
+            color: white;
+        }
+    }
+}
